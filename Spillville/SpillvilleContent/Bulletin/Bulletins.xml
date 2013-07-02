@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!--
+  Message Classes:
+  
+  Message Variables:
+  [gamerTag] - replaced with the player one gamertag on Xbox, "ROHR" on PC
+  Microsoft_Green
+  
+  Message Classes:
+  
+  Good
+  Bad
+  AnimalGood
+  AnimalBad
+  OilSpread
+  ProperClean
+  Upgrade
+  PurchaseDisperser
+  
+  
+  -->
+  <Asset Type="SpillvilleDataTypes.Bulletin[]">
+    <Item>
+      <MessageClass>Good</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>@[gamerTag], you're doing a great job!</Message>
+      <IconFileName>Bulletin\\rperson</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Good</MessageClass>
+      <From>GreenEarth</From>
+      <Message>The world thanks you, @[gamerTag], for cleaning up its precious oceans. Keep it up!</Message>
+      <IconFileName>Bulletin\\earth</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Good</MessageClass>
+      <From>SaveTheOcean</From>
+      <Message>I love the work you're doing, @[gamerTag]. Thanks for cleaning up the environment!</Message>
+      <IconFileName>Bulletin\\ocean</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Good</MessageClass>
+      <From>GoNature</From>
+      <Message>ROHR is awesome, thanks to the leadership of @[gamerTag]!</Message>
+      <IconFileName>Bulletin\\nature</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Good</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>GO ROHR!</Message>
+      <IconFileName>Bulletin\\rperson2</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>AnimalGood</MessageClass>
+      <From>DolphinEvangelist</From>
+      <Message>@[gamerTag], you saved a dolphin! You're my hero!</Message>
+      <IconFileName>Bulletin\\dolphin</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>AnimalGood</MessageClass>
+      <From>ROHR</From>
+      <Message>Thanks for attending to the local wildlife in your cleanup efforts. We'll provide you with additional funds to continue this.</Message>
+      <IconFileName>Bulletin\\rohr</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>AnimalGood</MessageClass>
+      <From>SaveTheOcean</From>
+      <Message>Save all the animals!</Message>
+      <IconFileName>Bulletin\\allthethings</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>AnimalBad</MessageClass>
+      <From>DolphinEvangelist</From>
+      <Message>Save the animals!! D:</Message>
+      <IconFileName>Bulletin\\dolphin</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>AnimalBad</MessageClass>
+      <From>GoNature</From>
+      <Message>You need to work on saving more animals, local wildlife is in danger!</Message>
+      <IconFileName>Bulletin\\nature</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Bad</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>Step it up! You can do this, @[gamerTag]!</Message>
+      <IconFileName>Bulletin\\rperson</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Bad</MessageClass>
+      <From>ROHR</From>
+      <Message>The public isn't responding well to how you're cleaning up. You may want to adjust your methods.</Message>
+      <IconFileName>Bulletin\\rohr</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>OilSpread</MessageClass>
+      <From>GreenEarth</From>
+      <Message>Hey @[gamerTag], the oil spill is spreading. You may want to purchase barriers to stop this.</Message>
+      <IconFileName>Bulletin\\earth</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>OilSpread</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>Hurry and stop the oil from spreading! It could potentially destroy more wildlife.</Message>
+      <IconFileName>Bulletin\\rperson2</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Chemical</MessageClass>
+      <From>SaveTheOcean</From>
+      <Message>We don't like all the chemicals you're introducing into the environment...</Message>
+      <IconFileName>Bulletin\\ocean</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Chemical</MessageClass>
+      <From>GoNature</From>
+      <Message>Chemicals can't be good for ocean life. Maybe you should reconsider your cleanup methods, @[gamerTag].</Message>
+      <IconFileName>Bulletin\\nature</IconFileName>
+    </Item>	
+	<Item>
+      <MessageClass>ProperClean</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>I like the way you're commanding your fleet. You should have this oil cleaned up in no time!</Message>
+      <IconFileName>Bulletin\\rperson</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Upgrade</MessageClass>
+      <From>ROHR</From>
+      <Message>Congrats on your ship upgrade purchase! We hope this will help you complete your mission.</Message>
+      <IconFileName>Bulletin\\rohr</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Upgrade</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>Better equipment leads to better cleanup! Good job @[gamerTag]</Message>
+      <IconFileName>Bulletin\\rperson2</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Chemical</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>Don't want to use chemicals? Upgrade your disperser to use Bio-Agents.</Message>
+      <IconFileName>Bulletin\\rperson2</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>PurchaseDisperser</MessageClass>
+      <From>SaveTheOcean</From>
+      <Message>Perhaps you should've chosen a boat that won't hurt wildlife or the environment.</Message>
+      <IconFileName>Bulletin\\ocean</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Purchase</MessageClass>
+      <From>[randomFriend]</From>
+      <Message>@[gamerTag], you're doing a great job!</Message>
+      <IconFileName>Bulletin\\rperson</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Tutorial.SaveAnimal</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Create and update a Dinghy and move it next to the hurt animal to save it.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+    <Item>
+      <MessageClass>Tutorial.SaveDolphin</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Create and update a Dinghy and move it next to the hurt dolphin to save it.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+    <Item>
+      <MessageClass>Tutorial.SaveBird</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Create and update a Dinghy and move it to the bird to save it.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+    <Item>
+      <MessageClass>Tuturial.MoveBoat</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>To move a boat, select it with A, and then press X where you want it to go.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+    <Item>
+      <MessageClass>Tuturial.CleanOil</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Move a Disperser or Scraper over the oil to clean the spill.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Tuturial.CreateBoat</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Let's start with creating a Disperser or Scraper.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Tuturial.EmptyTank</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Move the boats next to the tanker to empty their tanks.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+	<Item>
+      <MessageClass>Tuturial.CreateTanker</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Create a tanker to empty a boat's tank.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+    <Item>
+      <MessageClass>Tuturial.UpgradeBoats</MessageClass>
+      <From>SpillvilleHelp</From>
+      <Message>Boats have different upgrades that can speed up the cleaning process.</Message>
+      <IconFileName>Bulletin\\help</IconFileName>
+    </Item>
+  </Asset>
+</XnaContent>
